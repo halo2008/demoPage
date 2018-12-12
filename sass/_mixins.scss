@@ -1,0 +1,17 @@
+@mixin icons($ico, $proc-fill, $fill-color) {
+  &:after {
+    content: $ico;    
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: $proc-fill;
+    color: $fill-color;
+    animation: filler 6s ease-in-out;
+     @keyframes filler {
+      0% {
+        width: 0;
+        }
+      }
+    }
+  }

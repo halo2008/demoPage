@@ -1,0 +1,56 @@
+.tech-ico {
+  display: flex;
+  justify-content: center;
+  .fab {
+    margin: 50px 90px 50px 90px;
+    p {
+      text-transform: uppercase;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  .fa-html5 {
+    font-size: 120px;
+    position: relative;
+    @include icons('\f13b',95%,#E44D26);
+  }
+  .fa-css3-alt {
+    font-size: 120px;
+    position: relative;
+    @include icons('\f38b',90%,#1F62AE);
+  }
+
+  .fa-js-square {
+    font-size: 120px;
+    position: relative;
+    @include icons('\f3b9',60%,#FDD835);
+  }
+
+  .fa-react {
+    font-size: 120px;
+    position: relative;
+    @include icons('\f41b',20%,#00D8FF);
+  }
+
+  .fa-sass {
+    font-size: 80px;
+    position: relative;
+    @include icons('\f41e',70%,#CC6699);
+    p {
+      padding-top:  39px;
+    }
+  }
+
+  .fa-node-js {
+    font-size: 80px;
+    position: relative;
+    @include icons('\f3d3',20%,#83CD29);
+    p {
+      padding-top:  39px;
+    }
+  }
+
+
+
+}

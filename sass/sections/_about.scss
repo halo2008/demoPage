@@ -1,0 +1,31 @@
+.about {
+  background-color: $bg-col;
+  .head-line {
+    p:nth-child(1) {
+      color: #fff;
+    }
+  }
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .img {
+
+      border-radius: 10px;
+
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+      flex-basis: 25%;
+      flex-grow: 0;
+    }
+    .about-txt {
+      color: #fff;
+      flex-basis: 50%;
+      flex-grow: 0;
+      padding: 0 25px 0 25px;
+    }
+  }
+}
