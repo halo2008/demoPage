@@ -48,6 +48,17 @@ html, body {
   color: #6b6b6b;
 }
 
+#gap {
+  height: 500px;
+}
+
+#privacy-score-circle {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
 .header {
   background-image: url("../images/citynight.jpg");
   background-position: center;
